@@ -6,12 +6,13 @@ class printer{
 	public:
 		void memicik(string tombol);
 		int JumlahKertas;
-		string warnaPrint
+		string JenisTinta;
 		
 	
 };
 
 int main () {
 	printer printerEpson,Cannon,HP;
+	
 	
 }
