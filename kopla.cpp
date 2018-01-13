@@ -6,7 +6,7 @@ class printer{
 	public:
 		void mehidupi(string nyala);
 		string tinta;
-		double harga;
+		int harga;
 		
 	
 };
