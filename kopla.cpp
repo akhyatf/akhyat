@@ -4,16 +4,24 @@ using namespace std;
 
 class printer{
 	public:
-		void memicik(string tombol);
-		int JumlahKertas;
-		string JenisTinta;
+		void mehidupi(string nyala);
+		string tinta;
+		double harga;
 		
 	
 };
 
 int main () {
-	printer printerEpson,Cannon,HP;
+	printer Epson;
 	
-	printerEpson.JenisTinta ="CMYK"
+	Epson.tinta ="CMYK";
+	Epson.harga = 1250000;
 	
+	cout<<"Jenis tinta yang dipakai "<< (Epson.tinta)<<endl;
+	cout<<"Harga pas nya "<< (Epson.harga)<<endl;
+	
+	Epson.mehidupi("bekijip mata 3x nyala dah");
+}
+void printer::mehidupi(string nyala){
+	cout<<"Cara mehidupi nya "<<nyala<<" harat lo!!!"<<endl;
 }
