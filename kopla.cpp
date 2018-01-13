@@ -12,5 +12,6 @@ class printer{
 };
 
 int main () {
+	printer printerEpson,Cannon,HP;
 	
 }
